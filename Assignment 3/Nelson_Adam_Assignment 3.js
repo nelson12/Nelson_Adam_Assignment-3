@@ -41,3 +41,33 @@ for (var i=0; i < petNames.length; i++){
 	console.log(" I have " + i + " pets. " );
 } 
 
+//confirm
+hunter = confirm("Are you going to play a hunter?");
+//boolean function, argument, return, nested conditional
+function playHunter(name) {
+	if (hunter == true){
+		console.log("Great Let's Play!!!");
+	}else{
+		console.log("Try it over");
+	};
+	var excited = (" I am so glad that i am playing " + name);//local variable
+	return excited;
+};
+var game= playHunter("Big Ben");
+console.log(game);
+
+ //for loop
+for(var hunter = 5; hunter < 10; hunter = hunter+1) {
+          console.log("value of hunter : " + hunter );
+          console.log("\n");
+      }
+
+//prompt
+var races= prompt("How many races do we have?");
+//while loop
+      while( races < 20 ) {
+         console.log("value of races : " + races );
+         races++;
+         console.log("\n");
+      }
+      
