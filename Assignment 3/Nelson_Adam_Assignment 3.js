@@ -89,3 +89,14 @@ function character(name, level) {
 var toon = character(" Beowolf " , 90 );
 console.log(toon);
 
+
+   //conditional
+var loggedIn = "180";
+var researchTime = "240";
+var totalTime = prompt(" How long have you been playing today?");
+if ( loggedIn < researchTime || totalTime > 4) {
+console.log ( "You have been playing too long time to stop and eat");
+}else{
+console.log ( "Keep gaming" );
+}
+   
