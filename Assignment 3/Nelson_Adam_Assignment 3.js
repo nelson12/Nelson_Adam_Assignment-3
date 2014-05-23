@@ -80,3 +80,12 @@ function calcTime(loggedIn, researchTime) {
 var time = calcTime(180, 240);
 console.log (time);
 
+//string function, arguments, return
+function character(name, level) {
+   var bestCharacter = name + level;
+   var player = ( name + " is my favorite level " + level + "character, he is the best!");
+   return player
+}
+var toon = character(" Beowolf " , 90 );
+console.log(toon);
+
