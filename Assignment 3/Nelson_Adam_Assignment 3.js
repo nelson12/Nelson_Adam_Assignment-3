@@ -22,3 +22,22 @@ console.log(" You will be using your " + loggingIn + " to authenticate. ");
 console.log(" You will be a " + yourRace +  yourClass + ".");
 console.log(" Come on " + start + "!"); 
 
+//array procedure, argument, return
+var petNames = [ "Lucy" , "Snowball" , "Frosty" ];
+function getPetNames ( array ){
+	console.log (" My pet's names are " + petNames);
+}	
+getPetNames(petNames);
+
+//array method
+var petNames = [ "Lucy" , "Snowball" , "Frosty" ];
+petNames.push( " Vicious ");
+console.log( " My new pet names are" + petNames );
+
+//array property
+var petNames = [ "Lucy" , "Snowball" , "Frosty" ];
+var i = petNames.length;
+for (var i=0; i < petNames.length; i++){
+	console.log(" I have " + i + " pets. " );
+} 
+
